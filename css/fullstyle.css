@@ -7,6 +7,7 @@ body {
   background-image: url('/img/background.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
 }
 
 .main-container {
@@ -40,25 +41,15 @@ hr{
 }
 
 .myName>img{
-  width: 306px;
-  height: 50px;
+  width: 460px;
+  height: 75px;
   padding: 20px;
 }
 
 .main-section {
   display: flex;
-  flex: 3
-}
-
-nav {
-  flex:1;
-  background-image: url('/img/nav.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin: 20px;
-  position: relative;
-  opacity: 0.9;
-  font-size: 20px;
+  flex-direction: column;
+  flex: 3;
 }
 
 #links {
@@ -77,22 +68,30 @@ a {
   text-decoration: none;
 }
 
-#mwork {
-  color: #368ff0;
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: #551a8b;
 }
 
-.articles {
-  flex:4;
+nav *{
+  background-color: #ffffff;
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  border-radius: 10%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
 .blank {
-  flex: 1;
+  flex: 1 2 244px;
 }
 
 .aboutMe {
-  flex:1;
+  flex:1 0 244px;
   background-image: url('/img/about.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -100,6 +99,7 @@ a {
   position: relative;
   opacity: 0.9;
   text-align: center;
+  height: 100%;
 }
 
 .about-text {
@@ -113,4 +113,45 @@ a {
 
 .about-text>h1 {
   font-size: 30px;
+}
+
+.myWork{
+  text-align: center;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 10% 10% 0 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.myWork>li {
+  padding: 5px;
+  border-bottom: 1px solid #000000;
+}
+
+.noDisplay {
+  display: none;
+}
+
+@media screen and (max-width: 530px) {
+  .myName>img{
+    width: 260px;
+    height: 50px;
+    padding: 20px;
+  }
+
+  header {
+    font-size: 10px;
+  }
+
+  .aboutMe{
+    flex: 1;
+  }
+  .noDisplay {
+    display: none;
+  }
+
+  .blank {
+    display: none;
+  }
 }
