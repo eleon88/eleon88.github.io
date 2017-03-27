@@ -5,8 +5,6 @@
 
 body {
   background-image: url('/img/background.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .main-container {
@@ -113,6 +111,30 @@ nav *{
   display: none;
 }
 
+@media screen and (max-width: 730px) {
+  header{
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 690px) and (min-width: 531px) {
+  header {
+    font-size: 18px;
+  }
+
+  .aboutMe {
+    background-color: white;
+    border-radius: 10%;
+    font-size: 20px;
+  }
+
+  .myName>img{
+    width: 260px;
+    height: 50px;
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 530px) {
   .myName>img{
     width: 260px;
@@ -125,20 +147,14 @@ nav *{
     border-radius: 10%;
     padding: 10px;
     font-size: 16px;
+      flex: 1;
   }
 
   header {
     font-size: 10px;
   }
 
-  .aboutMe{
-    flex: 1;
-  }
   .noDisplay {
-    display: none;
-  }
-
-  .blank {
     display: none;
   }
 
