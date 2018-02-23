@@ -27,22 +27,22 @@ ul {
 }
 
 .centerHome {
-  align-self:center;
+  flex-direction: row;
+  align-self: center;
   text-align: center;
+  justify-content: center;
   color: #FF8200;
   font-family: 'Nanum Brush Script', cursive;
   font-size: 40px;
+
+
 }
 
 input.centerHome {
    color: #054DFF;
    font-weight: bold;
    border-radius: 40%;
-   padding: 3px 7px 3px 7px;
+   padding: 3px 15px 3px 15px;
    background-color: silver;
-   font-size: 20px;
-}
-
-li {
-
+   font-size: 30px;
 }
