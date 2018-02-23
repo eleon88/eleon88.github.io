@@ -1,0 +1,48 @@
+body{
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #cccccc;
+  background-image: radial-gradient(#214E7D, #113B67, #052B4F);
+  background-size: auto;
+  min-height: 100vh;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: white;
+  margin-right: 15px;
+}
+
+.centerHome {
+  align-self:center;
+  text-align: center;
+  color: #FF8200;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 40px;
+}
+
+input.centerHome {
+   color: #054DFF;
+   font-weight: bold;
+   border-radius: 40%;
+   padding: 3px 7px 3px 7px;
+   background-color: silver;
+   font-size: 20px;
+}
+
+li {
+
+}
