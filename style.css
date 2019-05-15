@@ -48,3 +48,19 @@ input.centerHome {
    font-size: 30px;
    cursor: pointer;
 }
+
+img {
+  transition: transform 2s;
+}
+
+img:hover {
+  transform: scale(1.2,1.2);
+}
+
+input.centerHome:hover {
+  background-color: #4FE83A;
+}
+
+li:hover {
+  color: #4FE83A;
+}
