@@ -64,3 +64,7 @@ input.centerHome:hover {
 li:hover {
   color: #4FE83A;
 }
+
+a:visited {
+  color: yellow;
+}
