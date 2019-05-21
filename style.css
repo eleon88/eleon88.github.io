@@ -65,6 +65,21 @@ li:hover {
   color: #4FE83A;
 }
 
-a:visited {
-  color: yellow;
+a:link {
+  color: green;
 }
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
