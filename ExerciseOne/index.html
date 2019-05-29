@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="top-container">
+        <h1>Shopping List</h1>
+        <div class="item-entry">
+          <input id="eric" type="radio" name="ENL" value="Eric"><strong>Eric</strong>
+          <input id="laura" type="radio" name="ENL" value="Laura" checked><strong>Laura</strong>
+          <input id="item-input" type="text" name="item" placeholder="Enter item...">
+          <button id="add-item" type="button" name="button">Add to list</button>
+        </div>
+      </div>
+      <hr>
+      <div id="e" class="middle-container">
+        <ul class="erics-list"><strong>Eric's List</strong><hr>
+          <li>milk<i class="far fa-times-circle"></i><i class="far fa-check-circle"></i></li>
+          <li>cookies<i class="far fa-times-circle"></i><i class="far fa-check-circle"></i></li>
+          <li>chips<i class="far fa-times-circle"></i><i class="far fa-check-circle"></i></li>
+        </ul>
+        <div class="transfer">
+          <button id="move-right" type="button" name="button"><i class="fas fa-arrow-circle-right"></i></button>
+          <button id="move-left" type="button" name="button"><i class="fas fa-arrow-circle-left"></i></button>
+        </div>
+        <ul id="l" class="lauras-list"><strong>Laura's List</strong><hr>
+          <li>peanut butter<i class="far fa-times-circle"></i><i class="far fa-check-circle"></i></li>
+          <li>peas<i class="far fa-times-circle"></i><i class="far fa-check-circle"></i></li>
+          <li>coffee mocha<i class="far fa-times-circle"></i><i class="far fa-check-circle"></i></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="script2.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+  </body>
+</html>
