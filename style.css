@@ -18,13 +18,22 @@ nav{
 }
 
 ul {
-  width: 150px;
-  display: flex;
-  justify-content: space-between;
   list-style-type: none;
   color: white;
   margin-right: 15px;
   cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.sign-in {
+  text-align: right;
+}
+
+li {
+  margin: 10px;
 }
 
 .centerHome {
@@ -35,8 +44,6 @@ ul {
   color: #FF8200;
   font-family: 'Nanum Brush Script', cursive;
   font-size: 40px;
-
-
 }
 
 input.centerHome {
@@ -71,7 +78,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: white;
 }
 
 /* mouse over link */
@@ -82,4 +89,4 @@ a:hover {
 /* selected link */
 a:active {
   color: yellow;
-} 
+}
