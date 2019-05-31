@@ -37,7 +37,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: rgba(174, 215, 255, 0.8);
-  width: 50%;
+  width: 60%;
+  min-height: 90vh;
   text-align: center;
 }
 
@@ -99,6 +100,7 @@ li {
 .fa-check-circle:hover {
   color: #01FF27;
   cursor: pointer;
+
 }
 
 .fa-times-circle:hover {
@@ -108,4 +110,8 @@ li {
 
 .selected {
   color: #D6FFDE;
+}
+
+.instructions {
+  font-weight: bold;
 }
